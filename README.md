@@ -6,6 +6,7 @@ Requires either [sys-botbase](https://github.com/olliz0r/sys-botbase/releases) o
 ### Use-cases
 * Warping to places that don't have a camp.
 * Warping to outbreak areas when using various shiny-hunting methods.
+* Falling off cliffs multiple times if validating pokemon capture data.
 * Warping into the geometry and falling through the map to your inevitable doom.
 
 Rundown video: https://youtu.be/hytt5ciYVQ8 
