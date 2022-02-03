@@ -142,27 +142,6 @@ namespace PLADumper
 
         }
 
-        public struct Vector3
-        {
-            public float x, y, z;
-
-            public override string ToString()
-            {
-                return $"{x},{y},{z}";
-            }
-
-            public static Vector3 FromString(string s)
-            {
-                var spl = s.Split(',');
-                Vector3 v = new Vector3();
-                v.x = float.Parse(spl[0]);
-                v.y = float.Parse(spl[1]);
-                v.z = float.Parse(spl[2]);
-
-                return v;
-            }
-        }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -229,6 +208,27 @@ namespace PLADumper
                 positions.RemoveAt(listBox1.SelectedIndex);
                 SaveAllAndUpdateUI();
             }
+        }
+    }
+
+    public struct Vector3
+    {
+        public float x, y, z;
+
+        public override string ToString()
+        {
+            return $"{x},{y},{z}";
+        }
+
+        public static Vector3 FromString(string s)
+        {
+            var spl = s.Split(',');
+            Vector3 v = new Vector3();
+            v.x = float.Parse(spl[0]);
+            v.y = float.Parse(spl[1]);
+            v.z = float.Parse(spl[2]);
+
+            return v;
         }
     }
 }
