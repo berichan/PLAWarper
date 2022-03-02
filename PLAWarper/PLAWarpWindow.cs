@@ -11,8 +11,8 @@ namespace PLADumper
 {
     public partial class PLAWarpWindow : Form
     {
-        readonly long[] jumpsPos = new long[] { 0x42F18E8, 0x88, 0x90, 0x1F0, 0x18, 0x80}; 
-        readonly string jumpsPosExpr = "[[[[[[main+42F18E8]+88]+90]+1F0]+18]+80]+90"; 
+        readonly long[] jumpsPos = new long[] { 0x42D4720, 0x18, 0x48, 0x1F0, 0x18, 0x370 }; 
+        readonly string jumpsPosExpr = "[[[[[[main+42D4720]+18]+48]+1F0]+18]+370]+90"; 
         static SysBot bot = new SysBot();
         static USBBot botUsb = new USBBot();
 
