@@ -12,3 +12,7 @@ Requires either [sys-botbase](https://github.com/olliz0r/sys-botbase/releases) o
 Rundown video: https://youtu.be/hytt5ciYVQ8 
 
 ![scr](https://i.imgur.com/WCcJOcm.png)
+
+# Attributions
+
+Sys-botbase interfacing built upon [NHSE.Injection](https://github.com/kwsch/NHSE) by [Kurt](https://github.com/kwsch)
